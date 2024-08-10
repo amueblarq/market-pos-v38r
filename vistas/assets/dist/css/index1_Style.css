@@ -1,0 +1,140 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: linear-gradient(to right, #2a7036 0%, #22e72c 50%, #ffffff 50%);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo para el texto "AMUEBLARQ" en la esquina superior izquierda */
+.logo-text {
+    position: absolute;
+    top: 68px;
+    left: 50px;
+    font-size: 26px;
+    font-family: "Segoe UI", sans-serif; /* Fuente Segoe UI o fuente sans-serif por defecto */
+    color: #ffffff; /* Color blanco */
+}
+
+.logo-text2 {
+    font-weight: bold;
+    position: absolute;
+    top: 164px;
+    left: 30px;
+    font-size: 50px;
+    font-family: "Segoe UI", sans-serif; /* Fuente Segoe UI o fuente sans-serif por defecto */
+    color: #ffffff; /* Color blanco */
+}
+
+/* Estilos para el texto "Texto" */
+.logo-text3 {
+    font-size: 20px;
+    position: absolute;
+    top: 300px;
+    left: 30px;
+    color: white;
+    font-family: "Segoe UI", sans-serif; /* Fuente Segoe UI o fuente sans-serif por defecto */
+}
+
+.h3 {
+    position: absolute;
+    font-weight: bold;
+    top: 220px;
+    left: 970px;
+    font-size: 27px;
+    font-family: "Segoe UI", sans-serif; /* Fuente Segoe UI o fuente sans-serif por defecto */
+    color: #dd5f0a; /* Color blanco */
+}
+
+/* Logo amueblarq */
+.logo-img img {
+    position: absolute;
+    top: 115px;
+    left: 1074px;
+    filter: drop-shadow(
+        0 0 5px rgba(0, 0, 0, .8)
+    );
+    width: 250px; /* Tamaño del logo */
+    height: auto;
+    margin-bottom: 20px; /* Espacio entre el logo y el formulario */
+    border-radius: 14px; /* Añadir esquinas redondeadas al logo */
+}
+
+.logo3-img img {
+    filter: drop-shadow(
+        0 0 10px rgba(0, 0, 0, .8)
+    );
+    width: 360px; /* Ajusta el ancho de la imagen según sea necesario */
+    height: auto; /* Mantén la relación de aspecto */
+    position: absolute; /* Posición absoluta */
+    bottom: 20px; /* Distancia desde el borde inferior */
+    left: 230px; /* Distancia desde el borde izquierdo */
+    top: 400px; /* Ajusta la posición vertical del icono */
+}
+
+
+.form-group {
+    margin-bottom: 50px;
+    margin-left: 800px;
+    margin-top: 100px;
+}
+
+label {
+    color: #dd5f0a;
+    position: absolute;
+    top: 340px;
+    left: 1015px;
+    font-weight: bold;
+    font-family: "Segoe UI", sans-serif; /* Fuente Segoe UI o fuente sans-serif por defecto */
+
+}
+
+input[type="text"],
+input[type="password"] {
+    position: absolute;
+    width: 22%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #797373;
+    box-sizing: border-box;
+    background-color: #b6b6b2;
+    left: 1020px;
+    top: 390px;
+}
+
+.form-control::placeholder {
+    color: rgb(24, 23, 23); /* Color del placeholder */
+    font-size: 14px; /* Tamaño del texto del placeholder */
+}
+
+.btn {
+    font-weight: bold;
+    width: 300px;
+    position: absolute;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #dd5f0a; /* Verde */
+    color: white;
+    left: 1045px;
+    top: 600px;
+}
+
+.btn:hover {
+    background-color: #e0860f; /* Verde más oscuro al pasar el mouse */
+}
+
+
+
+
+
